@@ -33,6 +33,7 @@ label {
 
   &:first-child {
     font-size: 22px;
+    line-height: 26px;
   }
 
   +label {
@@ -55,11 +56,12 @@ label {
   width: 275px;
   height: 450px;
   margin: auto auto;
-  border-radius: 10px;
+  border-radius: 15px;
+  box-shadow: 9px 11px 20px 0px rgb(140 137 137 / 20%);
 }
 
 .qr-code {
-  border-radius: 7px;
+  border-radius: 10px;
   width: 275px;
   height: 275px;
   margin-bottom: 7px;
